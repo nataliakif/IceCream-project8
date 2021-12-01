@@ -4,10 +4,12 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './base/common';
 @import './base/variables';
+@import './base/common';
 @import './components/container';
 @import './components/section';
+@import './components/title';
+@import './components/subtitile';
 @import './layout/header';
 @import './layout/hero';
 @import './layout/products';
