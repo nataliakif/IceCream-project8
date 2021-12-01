@@ -1,0 +1,18 @@
+.button-main {
+  background-color: var(--menu-text-color);
+  border-radius: 22px;
+
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
+}
+.button-inverse {
+  background-color: var(--primary-accent-color);
+  border-radius: 22px;
+
+  &:hover,
+  &:focus {
+    background-color: #c7133e;
+  }
+}
