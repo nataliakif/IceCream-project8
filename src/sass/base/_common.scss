@@ -1,41 +1,28 @@
 body {
-   font-family: $main-font;
-   font-style: normal;
-   font-size: 12px;
+  font-family: $main-font;
+  font-style: normal;
+  font-size: 12px;
 }
 
 h1,
 h2,
 h3,
 p {
-   margin: 0;
+  margin: 0;
 }
 
 ul {
-   margin: 0;
-   padding: 0;
-   list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-   display: block;
-   width: 100%;
-   height: auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1 px;
-  height: 1 px;
-  margin: -1 px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: auto;
 }
