@@ -1,10 +1,10 @@
 .about-section {
   background-color: $secondary-bg-color;
 }
-.container {
-}
-.about-container {
-}
+// .container {
+// }
+// .about-container {
+// }
 .about__pre-title {
   text-align: center;
 }
@@ -13,7 +13,8 @@
 }
 .about__left-right {
   display: block;
-  @media screen and (min-width: 768) {
+  @media screen and (min-width: 768px) {
+    display: flex;
   }
   border: 1px solid blue;
 }
@@ -23,7 +24,6 @@
 .about__text {
   width: 220px;
 
-  @include font(400 12px 1.58 0.03);
   @media screen and (min-width: 768) {
     width: 340px;
   }
