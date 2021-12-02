@@ -1,9 +1,15 @@
-:root {
-    --primary-text-color: #000000;;
-    --secondary-text-color: #907E82;
-    --primary-accent-color: #D41443;;
-    --secondary-accent-color: #FFA5BA;
-    --menu-text-color: #ffffff;
-    --main-font: 'DM Sans', sans-serif;
-    --secondary-font: 'Titan One', cursive;
-}
+$main-font: "DM Sans", sans-serif;
+$secondary-font: "Titan One", cursive;
+
+$primary-bg-color: #ffffff;
+$secondary-bg-color: #fff5f6;
+
+$hero-header-bg: #ffb8ca;
+
+$primary-text-color: #000000;
+$secondary-text-color: #907e82;
+
+$primary-accent-color: #d41443;
+$secondary-accent-color: #ffa5ba;
+
+$menu-text-color: #ffffff;
