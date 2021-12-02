@@ -4,7 +4,7 @@
 
 
 
-.footer-title {
+.footer__title {
   margin-bottom: 43px;
 
   @media screen and (min-width: 768px) {
@@ -13,7 +13,7 @@
   @media screen and (min-width: 1280px) {
   }
 }
-.footer-title .subtitle {
+.footer__title .subtitle {
   margin-bottom: 17px;
 }
 
@@ -22,7 +22,7 @@
   justify-content: flex-end;
   margin-bottom: 46px;
 }
-.footer__social--list {
+.footer__list {
   margin-right: 28px;
   &:last-child {
     margin-right: 0;
@@ -37,7 +37,7 @@
   }
 }
 
-.footer__social--image {
+.footer__image {
   width: 32px;
   height: 32px;
 
@@ -67,7 +67,7 @@
   
   color: #000000;
 }
-.footer__contact--phone {
+.footer__phone {
   font-family: DM Sans;
   font-weight: 500;
   font-style: normal;
