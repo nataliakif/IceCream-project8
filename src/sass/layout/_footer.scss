@@ -1,6 +1,23 @@
 .footer {
   background-color: #fff5f6;
 }
+
+.footer-title{
+ margin-bottom: 43px;
+
+   @media screen and (min-width: 768px) {
+     
+   }
+
+   @media screen and (min-width: 1280px) {
+     
+   }
+  
+}
+.footer-title .subtitle{
+  margin-bottom: 17px;
+}
+
 .footer__social{
     display: flex;
     justify-content: flex-end;
