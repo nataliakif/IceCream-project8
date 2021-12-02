@@ -1,28 +1,27 @@
- body {
-     font-family: var(--main-font);
-     font-size: 12px;   
+body {
+   font-family: $main-font;
+   font-size: 12px;
 }
-  
-  h1,
-  h2,
-  h3,
-  p {
-    margin: 0;
-  }
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
+
+h1,
+h2,
+h3,
+p {
+   margin: 0;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
