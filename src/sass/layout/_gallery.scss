@@ -1,0 +1,12 @@
+.gallery {
+  background-image: linear-gradient(
+    to bottom,
+    #fff5f6 39%,
+    var(--menu-text-color) 41%,
+    var(--menu-text-color) 60%
+  );
+}
+
+.gallery_img {
+  margin: 0 auto;
+}
