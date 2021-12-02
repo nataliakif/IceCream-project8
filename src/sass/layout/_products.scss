@@ -16,7 +16,7 @@
     }
 
     &__paragraph{
-        
+        margin-bottom: 49px;
         font-family: Titan One;
         font-style: normal;
         font-weight: normal;
@@ -31,9 +31,7 @@
     &__galery{
         display: flex;
     }
-    &__card:not(:last-child){
-        margin-right: 30px;
-    }
+    
     &__card{
         list-style: none;
         width: 330px;
@@ -45,6 +43,7 @@
     }
     
     &__menu{
+        padding-top: 163px;
         font-family: Titan One;
         font-style: normal;
         font-weight: normal;
@@ -58,6 +57,8 @@
     }
     
     &__description{
+        margin-top: 70px;
+        margin-bottom: 62px;
         font-family: DM Sans;
         font-style: normal;
         font-weight: bold;
@@ -69,6 +70,11 @@
 
         color: $primary-bg-color;
     }
+    &__list:not(:last-child){
+        margin-right: 30px;
+    }
+
+    
 }
 .arrow{
     width: 40px;
@@ -76,4 +82,13 @@
     margin-left: auto;
     margin-right: auto;
     
+}
+.ice-cream{
+    background-color: $hero-header-bg;
+}
+.ice-coffe{
+    background-color: $second-card-color;
+}
+.milcshakes{
+    background-color: $third-card-color;
 }
