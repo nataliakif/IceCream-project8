@@ -1,7 +1,15 @@
 .subtitle {
   font-family: $secondary-font;
-  font-size: 30px;
+  font-size: 18px;
   line-height: 1.13;
   text-transform: uppercase;
   color: $secondary-accent-color;
+
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+  }
 }
