@@ -1,8 +1,14 @@
+
 body {
-  font-family: $main-font;
-  font-style: normal;
-  font-size: 12px;
-}
+   font-family: $main-font;
+   background-color: $primary-bg-color;
+   font-size: 12px;  
+   font-style: normal;
+   @media screen and (min-width:768px){ 
+     font-size: 14px;
+     letter-spacing: 0.04em;
+   }
+  }
 
 h1,
 h2,
@@ -22,7 +28,8 @@ a {
 }
 
 img {
-  display: block;
-  width: 100%;
-  height: auto;
+   display: block;
+   width: 100%;
+   height: auto;
 }
+
