@@ -2,57 +2,88 @@
   background-color: #fff5f6;
 }
 
-.footer-title{
- margin-bottom: 43px;
 
-   @media screen and (min-width: 768px) {
-     
-   }
 
-   @media screen and (min-width: 1280px) {
-     
-   }
-  
+.footer-title {
+  margin-bottom: 43px;
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1280px) {
+  }
 }
-.footer-title .subtitle{
+.footer-title .subtitle {
   margin-bottom: 17px;
 }
 
-.footer__social{
-    display: flex;
-    justify-content: flex-end;
-    }
-.footer__social--list{
-    margin-right: 28px;
-     &:last-child{
-          margin-right: 0;
-      }
-   @media screen and (min-width: 480px) {
-      
-     
-   }
+.footer__social {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 46px;
+}
+.footer__social--list {
+  margin-right: 28px;
+  &:last-child {
+    margin-right: 0;
+  }
+  @media screen and (min-width: 480px) {
+  }
 
-   @media screen and (min-width: 768px) {
-     
-   }
+  @media screen and (min-width: 768px) {
+  }
 
-   @media screen and (min-width: 1280px) {
-     
-   }
-
-}    
-    
+  @media screen and (min-width: 1280px) {
+  }
+}
 
 .footer__social--image {
-     width: 32px;
-    height: 32px;
- 
+  width: 32px;
+  height: 32px;
+
   @media screen and (min-width: 768px) {
     width: 34px;
     height: 34px;
   }
   @media screen and (min-width: 1280px) {
-      width: 34px;
+    width: 34px;
     height: 34px;
-   }
+  }
+}
+.footer__contact {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 43px;
+}
+.footer__contact--list{
+  margin-right: 4px;
+}
+.footer__contact--title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.86;
+  
+  color: #000000;
+}
+.footer__contact--phone {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.86;
+  
+  color: var(--primary-accent-color);
+}
+.footer__year{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89px;
+  border-top: 1px solid #e1e1e1;
+  
+}
+.footer__year--list{
+margin: 22px 0 25px;
 }
