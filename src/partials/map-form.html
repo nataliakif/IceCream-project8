@@ -1,0 +1,18 @@
+<button type="button" data-map-modal-open>Map</button>
+<div class="backdrop is-hidden" data-map-modal>
+  <div class="modal modal-map">
+    <button class="modal__close-btn" aria-label="Закрыть окно" data-map-modal-close>
+      <svg class="modal__close-icon" width="18px" height="18px">
+        <use href="../src/images/svg/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="map-form">
+      <iframe
+        class="map-form__iframe"
+        src="https://www.google.com/maps/d/embed?mid=18W0Dm9c5Gt2yizE0S0kGpvUvmDQp5wol&ehbc=2E312F"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+<script src="../src/js/map-modal.js"></script>
