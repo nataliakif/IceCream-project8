@@ -1,10 +1,15 @@
+
 body {
    font-family: $main-font;
    background-color: $primary-bg-color;
-   color: $primary-text-color;
+   font-size: 12px;  
    font-style: normal;
-   font-size: 12px;
-}
+   @media screen and (min-width:768px){ 
+     font-size: 14px;
+     letter-spacing: 0.04em;
+   }
+
+
 
 h1,
 h2,
