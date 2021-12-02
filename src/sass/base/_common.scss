@@ -1,6 +1,11 @@
  body {
      font-family: var(--main-font);
-     font-size: 12px;   
+     font-size: 12px;  
+     font-style: normal;
+     @media screen and (min-width:768px){ 
+       font-size: 14px;
+       letter-spacing: 0.04em;
+     }
 }
   
   h1,
