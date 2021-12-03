@@ -1,7 +1,7 @@
 .products{
 
     &__heading{
-        
+        margin-bottom: 15px;
         font-family: Titan One;
         font-style: normal;
         font-weight: normal;
@@ -31,7 +31,10 @@
     &__galery{
         display: flex;
     }
-    
+    &__img{
+        position: absolute;
+        top: 165px;
+    }
     &__card{
         list-style: none;
         width: 330px;
@@ -43,6 +46,7 @@
     }
     
     &__menu{
+        margin-top: 210px;
         padding-top: 163px;
         font-family: Titan One;
         font-style: normal;
@@ -57,8 +61,9 @@
     }
     
     &__description{
-        margin-top: 70px;
-        margin-bottom: 62px;
+        width: 241px;
+        height: 106px;
+        margin: 65px auto;
         font-family: DM Sans;
         font-style: normal;
         font-weight: bold;
@@ -72,6 +77,9 @@
     }
     &__list:not(:last-child){
         margin-right: 30px;
+    }
+    &__list{
+
     }
 
     
