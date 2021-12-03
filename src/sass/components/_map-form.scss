@@ -1,18 +1,25 @@
-.map-container
-{
+.map-container {
   position: relative;
-  padding: 0 50px;  
-  height: 90vh;
+  padding: 0 10px;
+  height: 85vh;
   top: 5vh;
-  
+
+  @media screen and (min-width: 768px) {
+    padding: 0 50px;
+  }
 }
 
-.map-button{
+.map-button {
   background-color: white;
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    left: 50%;
+    top: 87vh;
+    transform: translateX(-50%);
+  }
 }
-
 
 .map-form__iframe {
   width: 100%;
-  height: 600px;
+  height: 100%;
 }
