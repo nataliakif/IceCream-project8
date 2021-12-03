@@ -20,6 +20,7 @@
 }
 
 .gallery__img {
+  width: 40px;
   border-radius: 10px;
   cursor: pointer;
   margin-bottom: 5px;
@@ -28,7 +29,7 @@
   transition-timing-function: infinite;
   transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
   @media screen and (min-width: 420px) and (max-width: 767px) {
-    width: 55px;
+    width: 60px;
     border-radius: 10px;
     cursor: pointer;
     margin-bottom: 10px;
