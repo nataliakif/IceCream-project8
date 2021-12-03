@@ -1,37 +1,23 @@
-.button-main {
-  width: 176px;
-  height: 44px;
-  border: 0px;
-  border-radius: 22px;
-  
-  text-align: center;
+.site-button {
   display: flex;
   align-items: center;
-  justify-content: center;
-  
+  cursor: pointer;
+  border-radius: 22px;
+  border: 0px;
+  text-align: center;
   color: $primary-accent-color;
   background-color: $menu-text-color;
+
   &:hover,
   &:focus {
     background-color: $hover-button-menu-color;
   }
-}
-.button-inverse {
-   width: 176px;
-  height: 44px;
-  border: 0px;
-  
-  border-radius: 22px;
-  
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  background-color: $primary-accent-color;
-  color: $menu-text-color;
-  &:hover,
-  &:focus {
-    background-color: $hover-button-primary-color;
+  &--inverse {
+    background-color: $primary-accent-color;
+    color: $menu-text-color;
+    &:hover,
+    &:focus {
+      background-color: $hover-button-primary-color;
+    }
   }
 }
