@@ -25,5 +25,10 @@
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
   },
-  "dependencies": {}
+
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1"
+  }
+
 }
