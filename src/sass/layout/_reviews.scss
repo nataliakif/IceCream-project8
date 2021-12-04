@@ -26,7 +26,7 @@
     padding-top: 0;
   }
 .customer-reviews__wrapper{
-  
+    
     position: relative;
     width: 100%;
     margin-bottom: 30px;
@@ -102,7 +102,7 @@
         margin-bottom: 18px;
         width: 32px;
         height: 4px;
-        color: #C7133E;
+        color: $hover-button-primary-color;
         background-image: url(../images/svg/icomoon/SVG/customers-reviews-pagination-dots.svg);
         @media screen and (min-width:768px){ 
             margin-bottom: 15px;
@@ -111,10 +111,6 @@
          
     }
 }
-
-/* Слайдер с точками */
-.slick-slider.slick-dotted{}
-/* Ограничивающая оболочка */
 .slick-list {
    overflow: hidden;
 }
