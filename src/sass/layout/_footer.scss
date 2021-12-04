@@ -1,0 +1,164 @@
+.footer {
+  background-color: $secondary-bg-color;
+}
+.footer .container{
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+.footer__title {
+  margin-bottom: 43px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 91px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 97px;
+  }
+}
+.footer__title .subtitle {
+  margin-bottom: 17px;
+  width: 232px;
+  @media screen and (min-width: 768px) {
+    width: 340px;
+    margin-bottom: 16px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+.footer__title .title{
+  width: 200px;
+  @media screen and (min-width: 768px) {
+    width: 340px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 100%;
+  }
+}
+
+
+.footer__social {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 46px;
+}
+.social__item {
+  
+ width: 32px;
+  height: 32px;
+  
+  margin-right: 28px;
+  &:last-child {
+    margin-right: 0;
+  }
+ 
+
+  @media screen and (min-width: 768px) {
+    width: 34px;
+    height: 34px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+.social__icon {
+  width: 32px;
+  height: 32px;
+
+  @media screen and (min-width: 768px) {
+    width: 34px;
+    height: 34px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 34px;
+    height: 34px;
+  }
+}
+.footer__contact {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 43px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0;
+  }
+}
+.contact__list{
+  margin-right: 4px;
+}
+.contact__title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.86;
+  
+  color: $primary-text-color;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+   @media screen and (min-width: 1280px) {
+    font-size: 16px;
+  }
+}
+.contact__phone {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.86;
+  
+  color: $primary-accent-color;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+   @media screen and (min-width: 1280px) {
+    font-size: 16px;
+  }
+}
+.footer__year{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89px;
+  border-top: 1px solid #e1e1e1;
+  @media screen and (min-width: 768px) {
+    height: 73px;
+  }
+  @media screen and (min-width: 1280px) {
+    height: 45px;
+  }
+}
+.year__list{
+
+  font-family: DM Sans;
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.52;
+
+color: $secondary-text-color;
+
+margin: 22px 0 25px;
+@media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+.year__item{
+  @media screen and (min-width: 768px) {
+   margin-right: 4px;
+  }
+}
