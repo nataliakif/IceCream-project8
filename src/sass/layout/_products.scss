@@ -1,6 +1,8 @@
 .products{
 
     &__heading{
+        display: flex;
+        justify-content: center;
         margin-bottom: 15px;
         font-family: Titan One;
         font-style: normal;
@@ -37,6 +39,7 @@
         top: 165px;
     }
     &__card{
+        text-align: center;
         list-style: none;
         width: 330px;
         height: 525px;
@@ -47,6 +50,7 @@
     }
     
     &__menu{
+        margin-bottom: 32px;
         margin-top: 210px;
         padding-top: 163px;
         font-family: Titan One;
@@ -62,9 +66,10 @@
     }
     
     &__description{
+        
         width: 241px;
         height: 106px;
-        margin: 65px auto;
+        margin: 32px auto 62px;
         font-family: DM Sans;
         font-style: normal;
         font-weight: bold;
@@ -101,4 +106,25 @@
 }
 .milcshakes{
     background-color: $third-card-color;
+}
+.dots, .dots:before, .dots:after {
+    width: 6px;
+    height: 6px;
+    background: $menu-text-color;
+    border-radius: 50%;
+}
+.dots{
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+.dots:before {
+    content: '';
+    position: absolute;
+    left: -10px;
+}
+.dots:after {
+    content: '';
+    position: absolute;
+    right: -10px;
 }
