@@ -1,24 +1,40 @@
+.about-section {
+  background-color: $secondary-bg-color;
+  @media screen and (min-width: 320px) {
+    background-image: url(../images/mobile/about/milk-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+  }
+  @media screen and (min-width: 480px) {
+    background-image: url(../images/mobile/about/milk-mobile479.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/tablet/about/milk-tablet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: url(../images/desktop/about/milk-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+  }
+}
 .about-container {
   padding-top: 125px;
   padding-bottom: 40px;
-  background-color: $secondary-bg-color;
-  @media screen and (max-width: 767px) {
-    background-image: url(../images/mobile/about/milk-mobile.png);
-    background-repeat: no-repeat;
-    background-position-y: 94vh;
-    background-size: contain;
-  }
   @media screen and (min-width: 768px) {
     padding-top: 130px;
     padding-bottom: 60px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     padding-top: 125px;
     padding-bottom: 40px;
-    background-image: url(../images/desktop/about/milk-desktop.png);
-    background-repeat: no-repeat;
-    background-position-y: 36vh;
-    background-size: contain;
   }
 }
 .about__pre-title,
@@ -41,7 +57,7 @@
   @media screen and (min-width: 768px) {
     margin-right: 17px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-right: 71px;
   }
 }
@@ -53,7 +69,7 @@
     width: 340px;
     padding-top: 50px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     width: 463px;
     padding-top: 50px;
   }
@@ -72,7 +88,7 @@
     line-height: 1.76;
     margin-bottom: 35px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.76;
@@ -91,7 +107,7 @@
     font-size: 14px;
     line-height: 1.76;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.94;
@@ -117,7 +133,7 @@
   @media screen and (min-width: 768px) {
     margin-top: 62px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-top: 45px;
   }
 }
