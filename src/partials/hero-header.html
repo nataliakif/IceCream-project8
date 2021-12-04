@@ -1,56 +1,79 @@
 <!--*---------------------------------- *HEADER ------------------------------------->
 
-<header class="header">
-   <div class="container header__container">
-      <nav class="navigation">
-         <a class="logo" href="./index.html">
-            <picture>
-               <source media="(min-width: 320px)" srcset="./images/logo/logo.png 199w, ./images/logo/logo@2x.png 398w"
-                  sizes="199px" />
-               <source media="(min-width: 320px)" srcset="./images/logo/logo.webp 199w, ./images/logo/logo@2x.webp 398w"
-                  type="image/webp" sizes="199px" />
-               <img src="#" alt="логотип" loading="lazy" />
-            </picture>
-         </a>
-         <ul class="site-nav">
-            <li class="site-nav__item"><a class="site-nav__link site-nav__link--current" href="">Home</a></li>
-            <li class="site-nav__item"><a class="site-nav__link" href="">About us</a></li>
-            <li class="site-nav__item"><a class="site-nav__link" href="">How it’s made?</a></li>
-            <li class="site-nav__item"><a class="site-nav__link" href="">Our products</a></li>
-            <li class="site-nav__item"><a class="site-nav__link" href="">Contact</a></li>
-         </ul>
-      </nav>
+<div class="top-wrapper">
+   <header class="header">
+      <div class="container header__container">
+         <nav class="navigation">
+            <a class="logo" href="./index.html">
+               <picture>
+                  <source media="(min-width: 320px)"
+                     srcset="./images/logo/logo.png 199w, ./images/logo/logo@2x.png 398w" sizes="199px" />
+                  <source media="(min-width: 320px)"
+                     srcset="./images/logo/logo.webp 199w, ./images/logo/logo@2x.webp 398w" type="image/webp"
+                     sizes="199px" />
+                  <img src="#" alt="логотип" loading="lazy" />
+               </picture>
+            </a>
+            <ul class="site-nav">
+               <li class="site-nav__item"><a class="site-nav__link site-nav__link--current" href="">Home</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="">About us</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="">How it’s made?</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="">Our products</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="">Contact</a></li>
+            </ul>
+         </nav>
 
-      <div class="btn-wrapper">
-         <!-- *-------------------------Start mobile-menu ------------------------->
-         <button class="burger-btn" type="button" data-menu-open>
-            <svg class="burger-btn__icon" aria-label="переключатель мобильного меню">
-               <use href="./images/svg/sprite.svg#menu"></use>
-            </svg>
-         </button>
-
-         <div class="mobile-menu" data-menu>
-            <button class="close-btn" type="button" data-menu-close>
-               <svg class="close-btn__icon" aria-label="переключатель мобильного меню">
-                  <use href="./images/svg/sprite.svg#menu-close"></use>
+         <div class="btn-wrapper">
+            <!-- *-------------------------Start mobile-menu ------------------------->
+            <button class="burger-btn" type="button" data-menu-open>
+               <svg class="burger-btn__icon" aria-label="переключатель мобильного меню">
+                  <use href="./images/svg/sprite.svg#menu"></use>
                </svg>
             </button>
-            <a class="button menu-btn" href="">Buy now<span class="menu-btn__icon menu-btn__icon--right"></span></a>
-            <ul class="nav-menu">
-               <li class="nav-menu__item"><a class="nav-menu__link nav-menu__link--current" href="">Home</a></li>
-               <li class="nav-menu__item"><a class="nav-menu__link" href="">About us</a></li>
-               <li class="nav-menu__item"><a class="nav-menu__link" href="">How it’s made?</a></li>
-               <li class="nav-menu__item"><a class="nav-menu__link" href="">Our products</a></li>
-               <li class="nav-menu__item"><a class="nav-menu__link" href="">Contact</a></li>
-            </ul>
+
+            <div class="mobile-menu" data-menu>
+               <button class="close-btn" type="button" data-menu-close>
+                  <svg class="close-btn__icon" aria-label="переключатель мобильного меню">
+                     <use href="./images/svg/sprite.svg#menu-close"></use>
+                  </svg>
+               </button>
+               <a class="menu-btn" href="">Buy now<span class="menu-btn__icon menu-btn__icon--right"></span></a>
+               <ul class="nav-menu">
+                  <li class="nav-menu__item"><a class="nav-menu__link nav-menu__link--current" href="">Home</a></li>
+                  <li class="nav-menu__item"><a class="nav-menu__link" href="">About us</a></li>
+                  <li class="nav-menu__item"><a class="nav-menu__link" href="">How it’s made?</a></li>
+                  <li class="nav-menu__item"><a class="nav-menu__link" href="">Our products</a></li>
+                  <li class="nav-menu__item"><a class="nav-menu__link" href="">Contact</a></li>
+               </ul>
+            </div>
+            <!-- *--------------------------End mobile-menu ----------------------------->
+            <a class="top-btn" href="">Buy now<span class="top-btn__icon top-btn__icon--right"></span></a>
          </div>
-         <!-- *--------------------------End mobile-menu ----------------------------->
-         <a class="button top-btn" href="">Buy now<span class="top-btn__icon top-btn__icon--right"></span></a>
+   </header>
+
+   <!-- *-------------------HERO------------------- -->
+
+   <section class="hero">
+      <div class="container">
+         <h1 class="hero__title">ice cream <br>
+            made with
+            <span class="hero__title--big">
+               passion</span>
+         </h1>
+         <a class="hero__button hero__button--first" href="">Products</a>
+         <a class="hero__button hero__button--second" href="">How it’s made?</a>
+         <div class="image-box">
+            <picture>
+               <source media="(min-width: 320px)"
+                  srcset="./images/mobile/hero-header/slider-pic7-1.png 171w, ./images/mobile/hero-header/slider-pic7-1@2x.png 342w"
+                  sizes="171px" />
+
+               <source media="(min-width: 320px)"
+                  srcset="./images/mobile/hero-header/slider-pic7-1.webp 171w, ./images/mobile/hero-header/slider-pic7-1@2x.webp 342w"
+                  sizes="450px" type="image/webp" />
+               <img src="#" alt="ice cream" loading="lazy" />
+            </picture>
+         </div>
       </div>
-
-   </div>
-
-
-
-   </div>
-</header>
+   </section>
+</div>
