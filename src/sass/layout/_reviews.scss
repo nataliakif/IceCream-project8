@@ -26,13 +26,16 @@
     padding-top: 0;
   }
 .customer-reviews__wrapper{
-  
+    
     position: relative;
-    width: 100%;
+    width: 280px;
     margin-bottom: 30px;
     background-color: #FAFAFA;
     padding: 43px 66px 26px 57px;
     z-index: -1;
+    @media screen and (min-width:480px){ 
+        width: 440px;
+    }
     @media screen and (min-width:768px){ 
         margin-bottom: 24px;
         padding: 47px 80px 34px 80px;
@@ -51,10 +54,14 @@
     color: $primary-text-color;
     background-image: linear-gradient(
     0deg,
-    #e1e1e1 4%,
-    transparent 4%);
-    background-position: bottom 6px;
-	background-size: 30px 30px;
+    rgb(225, 225, 225) 2%,
+    rgba(255, 255, 255, 0) 2%,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(225, 225, 225)50%,
+    rgb(225, 225, 225) 52%,
+    rgba(255, 255, 255, 0) 52%,
+    rgba(255, 255, 255, 0) 100%
+  );
     z-index: 1;
     @media screen and (min-width:768px){ 
         font-size: 14px;
@@ -72,7 +79,7 @@
         top: 28px;
         left: 61px;
         display: block;
-        background-image: url(../images/svg/icomoon/SVG/customer-reviews-bracket.svg);
+        background-image: url(../images/svg/customer-reviews-bracket.svg);
         width: 54px;
         height: 40px;
         z-index: -1;
@@ -102,8 +109,8 @@
         margin-bottom: 18px;
         width: 32px;
         height: 4px;
-        color: #C7133E;
-        background-image: url(../images/svg/icomoon/SVG/customers-reviews-pagination-dots.svg);
+        color: $hover-button-primary-color;
+        background-image: url(../images/svg/customers-reviews-pagination-dots.svg);
         @media screen and (min-width:768px){ 
             margin-bottom: 15px;
 
@@ -111,10 +118,6 @@
          
     }
 }
-
-/* Слайдер с точками */
-.slick-slider.slick-dotted{}
-/* Ограничивающая оболочка */
 .slick-list {
    overflow: hidden;
 }
@@ -132,7 +135,7 @@
 }
 /* Активная точка */
 .slick-dots li.slick-active button{
-    background-image: url(../images/svg/icomoon/SVG/slick-active-btn.svg);
+    background-image: url(../images/svg/slick-active-btn.svg);
     border-radius: 0;
     background-color: transparent;
     

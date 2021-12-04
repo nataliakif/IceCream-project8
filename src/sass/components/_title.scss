@@ -5,12 +5,11 @@
    letter-spacing: 0.06em;
    text-transform: uppercase;
    color: $primary-accent-color;
-
    @media screen and (min-width: 768px) {
       font-size: 48px;
    }
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+  }
 
-   @media screen and (min-width: 1200px) {
-      font-size: 58px;
-   }
 }

@@ -1,0 +1,203 @@
+.contacts{
+ width: 100%;
+ margin-top: 110px;
+ margin-left: auto;
+ margin-bottom: 110px;
+ margin-right: auto;
+ @media screen and (min-width: 320px) and (max-width: 767px){
+  background: linear-gradient(#ffffff 7%, #FFF5F6 7%);
+}
+
+ @media screen and (min-width: 768px){
+  background: linear-gradient(#ffffff 20%, #FFF5F6 20%);
+}
+ @media screen and (min-width: 1280px){
+  background: linear-gradient(#ffffff 15%, #FFF5F6 15%);
+}
+ 
+
+}
+.contacts__block{
+  @media screen and (min-width: 768px){
+    display: flex;
+  }
+}
+   
+.contacts__card{
+ padding-left: 20px;
+ background:  #FFFFFF;
+ box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+ border-radius: 24px;
+ 
+  @media screen and (max-width: 767px) {
+  width: 220px;
+  height: 427px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px){
+    width: 220px;  
+    height: 544px;
+    margin: 10px;
+    padding-left: 30px;
+   
+    
+  }
+  @media screen and (min-width: 1280px){
+    width: 330px;  
+    height: 572px;
+    margin: 15px;
+    padding-left: 40px;
+    
+  }
+  
+
+}
+
+.contacts__element{
+ padding-top: 40px;
+ padding-bottom: 25px;   
+ @media screen and (min-width: 768px){
+  padding-top: 50px;
+  padding-bottom: 30px;   
+  }
+}
+.contacts__name{
+    width: 80px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #F0D1A5;
+    border-radius: 4px;
+    padding-left: 24px;
+    @media screen and (min-width: 768px){
+    font-size: 16px;
+    line-height: 1.87;
+    padding-left: 18px;
+    }
+}
+.contacts__name-2{
+  width: 130px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.83;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #C2E297;
+  border-radius: 4px;
+  padding-left: 24px;
+  @media screen and (min-width: 768px){
+    font-size: 16px;
+    line-height: 1.87;
+    padding-left: 15px;
+    }
+}
+.contacts__list:not(:last-child)::after {
+    content: "";
+    width: 179px;
+    height: 0px;
+    position: absolute;
+    display: block;
+    border: 1px solid #E1E1E1;
+    margin-top: 25px;
+    @media screen and (min-width: 768px){
+      width: 157px;
+    }
+    @media screen and (min-width: 1280px){
+      width: 234px;
+    }
+   
+}
+.contacts__list:not(:last-child){
+  margin-bottom: 25px;
+  @media screen and (min-width: 768px){
+    margin-bottom: 30px;
+    }
+}
+.contacts__item{
+    display: block;
+    text-align: left;
+}
+
+.contacts__town{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    @media screen and (min-width: 768px){
+      font-size: 14px;
+      line-height: 1.86;
+      }
+}
+.contacts__text{
+ width: 180px;
+ font-weight: 500;
+ font-size: 12px;
+ line-height: 18px;
+ color: #907E82;
+ @media screen and (min-width: 768px){
+  font-size: 14px;
+  line-height: 1.64;
+  }
+  @media screen and (min-width: 1280px){
+    width: 243px;
+    font-size: 16px;
+    line-height: 1.81;
+    }
+}
+.contacts__list--info{
+    padding-top: 25px;
+    @media screen and (min-width: 768px){
+    padding-top: 30px;
+  }
+}
+.contacts__day{
+ font-weight: 500;
+ font-size: 12px;
+ line-height: 1.83;
+ text-align: left;
+ color: #000000;
+ @media screen and (min-width: 768px){
+  font-size: 14px;
+  line-height: 1.86;
+  }
+}
+
+.contacts__time{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    color: #FFA5BA;
+    @media screen and (min-width: 768px){
+      font-size: 14px;
+      line-height: 1.86;
+      }
+}
+.contacts__list--last{
+  padding-top: 25px;
+  @media screen and (min-width: 768px){
+    padding-top: 30px;
+    }
+    
+}
+.contacts__bath{
+ font-weight: 500;
+ font-size: 12px;
+ line-height: 1.5;
+ color: #907E82;
+ @media screen and (min-width: 768px){
+  font-size: 14px;
+  line-height: 1.86;
+  }
+}
+

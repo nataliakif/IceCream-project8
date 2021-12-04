@@ -2,9 +2,12 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  height: 44px;
   border-radius: 22px;
   border: 0px;
   text-align: center;
+  font-size: 16px;
+  line-height: 1.31;
   color: $primary-accent-color;
   background-color: $menu-text-color;
 
