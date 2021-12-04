@@ -105,13 +105,8 @@
         margin-bottom: 18px;
         width: 32px;
         height: 4px;
-<<<<<<< Updated upstream
         color: #C7133E;
-        background-image: url(../images/svg/icomoon/SVG/customers-reviews-pagination-dots.svg);
-=======
-        color: $hover-button-primary-color;
         background-image: url(../images/svg/customers-reviews-pagination-dots.svg);
->>>>>>> Stashed changes
         @media screen and (min-width:768px){ 
             margin-bottom: 15px;
 
@@ -120,9 +115,6 @@
     }
 }
 
-/* Слайдер с точками */
-.slick-slider.slick-dotted{}
-/* Ограничивающая оболочка */
 .slick-list {
    overflow: hidden;
 }
