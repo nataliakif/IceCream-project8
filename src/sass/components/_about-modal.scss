@@ -1,0 +1,87 @@
+.container-about-modal {
+  position: fixed;
+  width: 320px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  padding-top: 55px;
+
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 500px;
+  background-size: 320px 500px;
+  background-image: url(../images/about-modal/about-modal-bg-mobile320.jpg);
+
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/about-modal/about-modal-bg-mobile320@2x.jpg);
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    height: 509px;
+    padding-top: 80px;
+    background-size: 480px 509px;
+    background-image: url(../images/about-modal/about-modal-bg-mobile.jpg);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/about-modal/about-modal-bg-mobile@2x.jpg);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    height: 650px;
+    padding: 130px 20px;
+    background-size: 768px 650px;
+    background-image: url(../images/about-modal/about-modal-bg-tablet.jpg);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/about-modal/about-modal-bg-tablet@2x.jpg);
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1050px;
+    height: 743px;
+    padding-top: 170px;
+    background-size: 1050px 743px;
+    background-image: url(../images/about-modal/about-modal-bg-desktop.jpg);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/about-modal/about-modal-bg-desktop@2x.jpg);
+    }
+  }
+}
+
+.about-close-btn{
+    background-color: white;
+}
+
+.about__title--modal{
+    font-size: 24px;
+    margin-bottom: 35px;
+    @media screen and (min-width: 480px) {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+        margin-bottom: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 56px;
+        margin-bottom: 70px;
+    }
+}
