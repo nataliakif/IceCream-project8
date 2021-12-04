@@ -1,0 +1,73 @@
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: scale(1) translateY(-50%);
+
+  padding: 40px 20px;
+  min-width: 320px;
+  width: 100%;
+
+  @media screen and (max-height: 530px) {
+    height: 100%;
+    overflow-y: scroll;
+  }   
+
+  @media screen and (min-width: 450px) {
+    left: 50%;
+    transform: scale(1) translate(-50%, -50%);
+  }
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 480px) {
+    padding: 40px;
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 528px;
+  }
+
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.backdrop.is-hidden .modal {
+  transform: scale(0.8) translate(-50%, -50%);
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  transform: translate(-8px, 8px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover .modal__close-icon, &:focus .modal__close-icon{
+    fill: $primary-accent-color;
+  }
+  &:hover, &:focus{
+    border: 2px solid $secondary-accent-color;
+  }
+}
+
+.modal__close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

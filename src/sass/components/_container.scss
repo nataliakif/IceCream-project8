@@ -3,8 +3,12 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-    width: 300px;
+  @media screen and (max-width: 479px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 460px;
   }
 
   @media screen and (min-width: 768px) {
