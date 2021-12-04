@@ -1,6 +1,6 @@
 .container-about-modal {
   position: fixed;
-  width: 320px;
+  width: 300px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -13,7 +13,15 @@
   background-size: cover;
   text-align: center;
   height: 500px;
-  background-size: 320px 500px;
+
+  @media screen and (max-height: 499px) {
+    height: 90vh;
+    overflow-y: scroll;
+    background-attachment: local;
+    padding-bottom: 18vh;
+  }   
+
+  background-size: 300px 500px;
   background-image: url(../images/about-modal/about-modal-bg-mobile320.jpg);
 
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -21,10 +29,16 @@
   }
 
   @media screen and (min-width: 480px) {
-    width: 480px;
+    width: 460px;
     height: 509px;
     padding-top: 80px;
-    background-size: 480px 509px;
+    background-size: 460px 509px;
+    @media screen and (max-height: 508px) {
+      height: 90vh;
+      overflow-y: scroll;
+      background-attachment: local;
+      padding-bottom: 25vh;
+    }
     background-image: url(../images/about-modal/about-modal-bg-mobile.jpg);
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -35,10 +49,16 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 768px;
+    width: 740px;
     height: 650px;
     padding: 130px 20px;
-    background-size: 768px 650px;
+    @media screen and (max-height: 649px) {
+      height: 90vh;
+      overflow-y: scroll;
+      background-attachment: local;
+      padding-bottom: 32vh;
+    }   
+    background-size: 740px 650px;
     background-image: url(../images/about-modal/about-modal-bg-tablet.jpg);
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -52,6 +72,12 @@
     width: 1050px;
     height: 743px;
     padding-top: 170px;
+    @media screen and (max-height: 742px) {
+      height: 90vh;
+      overflow-y: scroll;
+      background-attachment: local;
+      padding-bottom: 30vh;
+    }   
     background-size: 1050px 743px;
     background-image: url(../images/about-modal/about-modal-bg-desktop.jpg);
 
@@ -68,8 +94,8 @@
 }
 
 .about__title--modal{
-    font-size: 24px;
-    margin-bottom: 35px;
+    font-size: 22px;
+    margin-bottom: 25px;
     @media screen and (min-width: 480px) {
         font-size: 30px;
         margin-bottom: 40px;
