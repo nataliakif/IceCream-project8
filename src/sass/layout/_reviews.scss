@@ -51,13 +51,16 @@
     font-weight: 500;
     line-height: 2.58;
     text-align: center;
-    color: $primary-text-color;
     background-image: linear-gradient(
     0deg,
-    #e1e1e1 4%,
-    transparent 4%);
-    background-position: bottom 6px;
-	background-size: 30px 30px;
+    rgb(225, 225, 225) 2%,
+    rgba(255, 255, 255, 0) 2%,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(225, 225, 225)50%,
+    rgb(225, 225, 225) 52%,
+    rgba(255, 255, 255, 0) 52%,
+    rgba(255, 255, 255, 0) 100%
+  );
     z-index: 1;
     @media screen and (min-width:768px){ 
         font-size: 14px;
