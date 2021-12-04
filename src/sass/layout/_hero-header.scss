@@ -285,11 +285,15 @@
 // *-----------HERO------------
 
 .hero {
-   position: relative;
    padding: 20px 0 150px 0;
+   background-image: url("../images/mobile/hero-header/slider-pic7-1.png"),
+      url("../images/mobile/hero-header/ellipse.png");
+   background-position: bottom 0px right 32px, bottom 75px right 0px;
+   background-repeat: no-repeat no-repeat;
 }
 
 .hero__title {
+   display: block;
    font-family: $secondary-font;
    font-weight: 400;
    text-transform: uppercase;
@@ -298,7 +302,7 @@
    font-size: 26px;
    line-height: 1.15;
    letter-spacing: 0.04em;
-
+   z-index: 1;
    color: $menu-text-color;
 
    @media screen and (min-width: 768px) {
@@ -393,10 +397,9 @@
 }
 
 .image-box {
-   position: absolute;
-   z-index: -1;
-   bottom: 0;
-   right: 22px;
+   // position: absolute;
+   // bottom: 0;
+   // right: 22px;
    width: 171px;
    height: 410px;
 }
