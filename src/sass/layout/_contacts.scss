@@ -4,6 +4,17 @@
  margin-left: auto;
  margin-bottom: 110px;
  margin-right: auto;
+ @media screen and (min-width: 320px) and (max-width: 767px){
+  background: linear-gradient(#ffffff 7%, #FFF5F6 7%);
+}
+
+ @media screen and (min-width: 768px){
+  background: linear-gradient(#ffffff 20%, #FFF5F6 20%);
+}
+ @media screen and (min-width: 1280px){
+  background: linear-gradient(#ffffff 15%, #FFF5F6 15%);
+}
+ 
 
 }
 .contacts__block{
@@ -49,11 +60,7 @@
  @media screen and (min-width: 768px){
   padding-top: 50px;
   padding-bottom: 30px;   
-}
-@media screen and (min-width: 1280px){
-  padding-top: 50px;
-  padding-bottom: 60px;   
-}
+  }
 }
 .contacts__name{
     width: 80px;
