@@ -28,11 +28,14 @@
 .customer-reviews__wrapper{
     
     position: relative;
-    width: 100%;
+    width: 280px;
     margin-bottom: 30px;
     background-color: #FAFAFA;
     padding: 43px 66px 26px 57px;
     z-index: -1;
+    @media screen and (min-width:480px){ 
+        width: 440px;
+    }
     @media screen and (min-width:768px){ 
         margin-bottom: 24px;
         padding: 47px 80px 34px 80px;
