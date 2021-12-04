@@ -1,5 +1,11 @@
 .products{
-
+    margin-top: 127px;
+    margin-bottom: 119px;
+    
+    @media screen and (min-width:768px) and (max-width:1199px) {
+            margin-top: 122px;
+            margin-bottom: 112px;
+        }
     &__heading{
         display: flex;
         justify-content: center;
@@ -14,6 +20,10 @@
         text-transform: uppercase;
 
         color: $secondary-accent-color;
+
+        @media screen and (min-width:768px) and (max-width:1199px) {
+            font-size: 26px;
+        }
     
     }
 
@@ -29,6 +39,10 @@
         text-transform: uppercase;
 
         color: $primary-accent-color;
+
+        @media screen and (min-width:768px) and (max-width:1199px) {
+            font-size: 48px;
+        }
     }
     &__list{
         display: flex;
@@ -36,7 +50,7 @@
     }
     &__img{
         position: absolute;
-        top: 165px;
+        top: 0px;
     }
     &__card{
         text-align: center;
@@ -46,6 +60,11 @@
 
         background: #FFB8CA;
         border-radius: 24px;
+
+        @media screen and (min-width:768px) and (max-width:1199px) {
+            width: 220px;
+            height: 485px;
+        }
 
     }
     
@@ -63,6 +82,12 @@
         text-transform: uppercase;
 
         color: $primary-bg-color;
+
+        @media screen and (min-width:768px) and (max-width:1199px) {
+            font-size: 20px;
+            margin-top: 106px;
+            margin-bottom: 30px;
+        }
     }
     
     &__description{
@@ -80,11 +105,18 @@
         letter-spacing: 0.04em;
 
         color: $primary-bg-color;
+
+        @media screen and (min-width:768px) and (max-width:1199px) {
+            width: 198px;
+            height: 124px;
+            font-weight: normal;
+            font-size: 14px;
+            margin: 30px auto 20px;
+        }
     }
-    // &__item:not(:last-child){
-    //     margin-right: 30px;
-    // }
+    
     &__item{
+        position: relative;
         margin: 15px;
 
     }
