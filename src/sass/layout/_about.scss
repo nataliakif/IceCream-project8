@@ -38,20 +38,24 @@
   }
 }
 .about__pre-title {
+  text-align: center;
   margin-bottom: 15px;
 }
-.about__pre-title,
 .about__title {
   text-align: center;
+  margin-bottom: 26px;
   @media screen and (max-width: 479px) {
     display: block;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
   }
-}
-.about__title {
-  margin-bottom: 26px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 56px;
+  }
 }
 .about-position {
   display: block;
