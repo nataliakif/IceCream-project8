@@ -2,14 +2,14 @@
  width: 100%;
  padding-bottom: 110px;
  @media screen and (min-width: 320px) and (max-width: 767px){
-  background: linear-gradient(#ffffff 7%, #FFF5F6 7%);
+  background: linear-gradient($primary-bg-color 7%, $secondary-bg-color 7%);
 }
 
  @media screen and (min-width: 768px){
-  background: linear-gradient(#ffffff 20%, #FFF5F6 20%);
+  background: linear-gradient($primary-bg-color 20%, $secondary-bg-color 20%);
 }
  @media screen and (min-width: 1280px){
-  background: linear-gradient(#ffffff 15%, #FFF5F6 15%);
+  background: linear-gradient($primary-bg-color 15%, $secondary-bg-color 15%);
 }
  
 
@@ -25,7 +25,7 @@
  margin-right: auto;
  margin-left: auto;
  padding: 40px 20px;
- background:  #FFFFFF;
+ background:  $primary-bg-color;
  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
  border-radius: 24px;
  
@@ -67,8 +67,8 @@
     align-items: center;
     text-align: left;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #F0D1A5;
+    color: $primary-bg-color;
+    background: $second-card-color;
     border-radius: 4px;
     padding-left: 24px;
     @media screen and (min-width: 480px){
@@ -86,8 +86,8 @@
   align-items: center;
   text-align: left;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
-  background: #C2E297;
+  color: $primary-bg-color;
+  background: $third-card-color;
   border-radius: 4px;
   padding-left: 24px;  
   @media screen and (min-width: 480px){
@@ -132,7 +132,7 @@
     font-size: 12px;
     line-height: 186%;
     letter-spacing: 0.04em;
-    color: #000000;
+    color: $primary-text-color;
     @media screen and (min-width: 480px){
       font-size: 16px;
       line-height: 1.86;
@@ -146,7 +146,7 @@
  font-weight: 500;
  font-size: 12px;
  line-height: 18px;
- color: #907E82;
+ color: $secondary-text-color;
  @media screen and (min-width: 480px){
   font-size: 16px;
   line-height: 1.81;
@@ -171,7 +171,7 @@
  font-size: 12px;
  line-height: 1.83;
  text-align: left;
- color: #000000;
+ color: $primary-text-color;
  @media screen and (min-width: 480px){
   font-size: 16px;
   line-height: 1.81;
@@ -186,7 +186,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 1.83;
-    color: #FFA5BA;
+    color: $secondary-accent-color;
     @media screen and (min-width: 480px){
       font-size: 16px;
       line-height: 1.81;
@@ -207,7 +207,7 @@
  font-weight: 500;
  font-size: 12px;
  line-height: 1.5;
- color: #907E82;
+ color: $secondary-text-color;
  @media screen and (min-width: 480px){
   font-size: 16px;
   line-height: 1.81;
@@ -257,6 +257,7 @@
  align-items: center;
  text-align: center;
  justify-content: center;
+ fill: var(--color1);
  color: $menu-text-color;
  background-color:$primary-accent-color;
 }
@@ -269,5 +270,5 @@
  align-items: center;
  text-align: center;
  color: $primary-accent-color;
- background-color: $menu-text-color
+ background-color: $menu-text-color;
 }
