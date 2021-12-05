@@ -1,14 +1,14 @@
 .products{
-    margin-top: 127px;
-    margin-bottom: 119px;
+    padding-top: 127px;
+    padding-bottom: 119px;
     
      @media screen and (min-width:320px) and (max-width:767px) {
-            margin-top: 121px;
-            margin-bottom: 98px;
+            padding-top: 121px;
+            padding-bottom: 98px;
         }
     @media screen and (min-width:768px) and (max-width:1279px) {
-            margin-top: 122px;
-            margin-bottom: 112px;
+            padding-top: 122px;
+            padding-bottom: 112px;
         }
     &__heading{
         display: flex;
