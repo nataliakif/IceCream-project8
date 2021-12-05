@@ -65,14 +65,23 @@
     }
     &__img{
         position: absolute;
-        top: 0px;
+        // top: 47px;
 
         @media screen and (min-width:320px) and (max-width:767px) {
-            top: 28px;
-            left: 115px;
+            // top: 28px;
+            right: 45px;
+        }
+        @media screen and (min-width:768px) and (max-width:1279px) {
+            // top: 28px;
+            top: 328px;
+        }
+        @media screen and (min-width:1280px) {
+            top: 415px;
+            
         }
     }
     &__card{
+        // position: relative;
         text-align: center;
         width: 330px;
         background: #FFB8CA;
@@ -91,19 +100,22 @@
             padding-bottom: 40px;
             padding-left: 11px;
             padding-right: 11px;
+            margin-top: 150px;
         }
         @media screen and (min-width:1280px) {
             padding-left: 44px;
             padding-right: 44px;
             padding-bottom: 50px;
+            margin-top: 259px;
+            
         }
 
     }
     
     &__title{
         margin-bottom: 32px;
-        margin-top: 210px;
-        padding-top: 163px;
+        // margin-top: 210px;
+        padding-top: 115px;
         font-family: $secondary-font;
         font-weight: normal;
         font-size: 30px;
@@ -115,13 +127,17 @@
 
         @media screen and (min-width:320px) and (max-width:767px) {
             font-size: 20px;
-            margin-top: 130px;
+            margin-top: 161px;
         }
         
         @media screen and (min-width:768px) and (max-width:1279px) {
             font-size: 20px;
             margin-top: 106px;
             margin-bottom: 30px;
+            padding-top: 150px;
+        }
+        @media screen and (min-width:1280px) {
+            padding-top: 165px;
         }
     }
     
@@ -151,12 +167,12 @@
             height: 124px;
             font-weight: normal;
             font-size: 14px;
-            margin: 30px auto 20px;
+            
         }
     }
     
     &__item{
-        position: relative;
+        // position: relative;
         @media screen and (min-width:768px) and (max-width:1279px) {
             margin: 10px;
         }
