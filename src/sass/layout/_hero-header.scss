@@ -28,7 +28,6 @@
    }
 
    @media screen and (min-width: 1280px) {
-      margin-top: 10px;
       height: 665px;
       background-image: url("../images/desktop/hero-header/slider-pic7-1.png"),
          url("../images/desktop/hero-header/ellipse.png");
@@ -609,9 +608,13 @@
 }
 
 .button__icon {
-   width: 6px;
-   height: 8px;
-   fill: $primary-accent-color;
+   display: none;
+
+   @media screen and (min-width: 768px) {
+      width: 6px;
+      height: 8px;
+      fill: $primary-accent-color;
+   }
 
    @media screen and (min-width: 1280px) {
       width: 10px;
