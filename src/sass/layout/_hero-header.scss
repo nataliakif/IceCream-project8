@@ -611,6 +611,7 @@
    display: none;
 
    @media screen and (min-width: 768px) {
+      display: block;
       width: 6px;
       height: 8px;
       fill: $primary-accent-color;
