@@ -37,9 +37,18 @@
     padding-bottom: 40px;
   }
 }
+.about__pre-title {
+  margin-bottom: 15px;
+}
 .about__pre-title,
 .about__title {
   text-align: center;
+  display: block;
+  @media screen and (max-width: 479px) {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .about__title {
   margin-bottom: 26px;
