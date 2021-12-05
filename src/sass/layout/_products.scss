@@ -66,10 +66,12 @@
     &__img{
         position: absolute;
         // top: 47px;
-
+            display: flex;
         @media screen and (min-width:320px) and (max-width:767px) {
-            // top: 28px;
-            right: 45px;
+            margin-top: 25px;
+            margin-top: 25px;
+            top: -130px;
+            left: 32px;
         }
         @media screen and (min-width:768px) and (max-width:1279px) {
             // top: 28px;
@@ -80,6 +82,7 @@
             
         }
     }
+    
     &__card{
         // position: relative;
         text-align: center;
@@ -88,23 +91,22 @@
         border-radius: 24px;
         
          @media screen and (min-width:320px) and (max-width:767px) {
-            width: 100%;
+            width: 280px;
+            padding-top: 160px;
             padding-bottom: 40px;
-            padding-right: 40px;
-            padding-left: 40px;
-            
+            margin-top: 130px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
         }
         
         @media screen and (min-width:768px) and (max-width:1279px) {
             width: 220px;
             padding-bottom: 40px;
-            padding-left: 11px;
-            padding-right: 11px;
             margin-top: 150px;
         }
         @media screen and (min-width:1280px) {
-            padding-left: 44px;
-            padding-right: 44px;
+            
             padding-bottom: 50px;
             margin-top: 259px;
             
@@ -115,7 +117,7 @@
     &__title{
         margin-bottom: 32px;
         // margin-top: 210px;
-        padding-top: 115px;
+        // padding-top: 115px;
         font-family: $secondary-font;
         font-weight: normal;
         font-size: 30px;
@@ -127,7 +129,7 @@
 
         @media screen and (min-width:320px) and (max-width:767px) {
             font-size: 20px;
-            margin-top: 161px;
+            // margin-top: 161px;
         }
         
         @media screen and (min-width:768px) and (max-width:1279px) {
@@ -143,9 +145,7 @@
     
     &__description{
         
-        // width: 241px;
-        // height: 106px;
-        // margin: 32px auto 62px;
+        
         font-family: DM Sans;
         font-style: normal;
         font-weight: bold;
@@ -159,15 +159,22 @@
 
          @media screen and (min-width:320px) and (max-width:767px) {
             font-size: 14px;
+            padding-left: 40px;
+            padding-right: 40px;
             
         }
 
         @media screen and (min-width:768px) and (max-width:1279px) {
-            width: 198px;
-            height: 124px;
+            
             font-weight: normal;
             font-size: 14px;
+            padding-left: 11px; 
+            padding-right: 11px;
             
+        }
+        @media screen and (min-width:1280px) {
+            padding-left: 44px;
+            padding-right: 44px;
         }
     }
     
@@ -190,6 +197,7 @@
     height: 40px;
     margin-left: auto;
     margin-right: auto;
+    
     
 }
 .ice-cream{
