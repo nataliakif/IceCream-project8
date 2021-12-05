@@ -6,7 +6,7 @@
             margin-top: 121px;
             margin-bottom: 98px;
         }
-    @media screen and (min-width:768px) and (max-width:1199px) {
+    @media screen and (min-width:768px) and (max-width:1279px) {
             margin-top: 122px;
             margin-bottom: 112px;
         }
@@ -15,11 +15,8 @@
         justify-content: center;
         margin-bottom: 15px;
         font-family: Titan One;
-        font-style: normal;
-        font-weight: normal;
         font-size: 30px;
-        line-height: 34px;
-        text-align: center;
+        line-height: 1.2;
         letter-spacing: 0.04em;
         text-transform: uppercase;
 
@@ -28,7 +25,7 @@
         @media screen and (min-width:320px) and (max-width:767px) {
             font-size: 18px;
         }
-        @media screen and (min-width:768px) and (max-width:1199px) {
+        @media screen and (min-width:768px) and (max-width:1279px) {
             font-size: 26px;
         }
     
@@ -50,7 +47,7 @@
          @media screen and (min-width:320px) and (max-width:767px) {
             font-size: 34px;
         }
-        @media screen and (min-width:768px) and (max-width:1199px) {
+        @media screen and (min-width:768px) and (max-width:1279px) {
             font-size: 48px;
         }
     }
@@ -77,37 +74,40 @@
     }
     &__card{
         text-align: center;
-        list-style: none;
         width: 330px;
-        height: 525px;
-
         background: #FFB8CA;
         border-radius: 24px;
         
          @media screen and (min-width:320px) and (max-width:767px) {
-            width: 280px;
-            height: 485px;
-            margin-left: auto;
-            margin-right: auto;
+            width: 100%;
+            padding-bottom: 40px;
+            padding-right: 40px;
+            padding-left: 40px;
+            
         }
         
-        @media screen and (min-width:768px) and (max-width:1199px) {
+        @media screen and (min-width:768px) and (max-width:1279px) {
             width: 220px;
-            height: 485px;
+            padding-bottom: 40px;
+            padding-left: 11px;
+            padding-right: 11px;
+        }
+        @media screen and (min-width:1280px) {
+            padding-left: 44px;
+            padding-right: 44px;
+            padding-bottom: 50px;
         }
 
     }
     
-    &__menu{
+    &__title{
         margin-bottom: 32px;
         margin-top: 210px;
         padding-top: 163px;
-        font-family: Titan One;
-        font-style: normal;
+        font-family: $secondary-font;
         font-weight: normal;
         font-size: 30px;
         line-height: 1.1;
-        text-align: center;
         letter-spacing: 0.04em;
         text-transform: uppercase;
 
@@ -118,7 +118,7 @@
             margin-top: 130px;
         }
         
-        @media screen and (min-width:768px) and (max-width:1199px) {
+        @media screen and (min-width:768px) and (max-width:1279px) {
             font-size: 20px;
             margin-top: 106px;
             margin-bottom: 30px;
@@ -127,9 +127,9 @@
     
     &__description{
         
-        width: 241px;
-        height: 106px;
-        margin: 32px auto 62px;
+        // width: 241px;
+        // height: 106px;
+        // margin: 32px auto 62px;
         font-family: DM Sans;
         font-style: normal;
         font-weight: bold;
@@ -142,14 +142,11 @@
         color: $primary-bg-color;
 
          @media screen and (min-width:320px) and (max-width:767px) {
-            width: 200px;
-            height: 124px;
-            font-weight: normal;
             font-size: 14px;
-            margin: 30px auto 20px;
+            
         }
 
-        @media screen and (min-width:768px) and (max-width:1199px) {
+        @media screen and (min-width:768px) and (max-width:1279px) {
             width: 198px;
             height: 124px;
             font-weight: normal;
@@ -160,10 +157,10 @@
     
     &__item{
         position: relative;
-        @media screen and (min-width:768px) and (max-width:1199px) {
+        @media screen and (min-width:768px) and (max-width:1279px) {
             margin: 10px;
         }
-        @media screen and (min-width:1200px){
+        @media screen and (min-width:1280px){
             margin: 15px;
         }
 
@@ -172,6 +169,7 @@
     
 }
 .arrow{
+    margin-top: 30px;
     width: 40px;
     height: 40px;
     margin-left: auto;
@@ -197,6 +195,7 @@
     margin: 0 auto;
     position: relative;
     display: inline-block;
+    margin-bottom: 30px;
 }
 .dots:before {
     content: '';
@@ -207,4 +206,7 @@
     content: '';
     position: absolute;
     right: -10px;
+}
+.contacts-title{
+font-size: 58px;
 }
