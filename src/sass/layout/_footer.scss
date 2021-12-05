@@ -182,13 +182,13 @@
 
   color: $secondary-text-color;
 
-  margin: 22px 0 25px;
-  @media screen and (min-width: 768px) {
+  padding: 22px 0 25px;
+  @media screen and (min-width: 480px) {
     display: flex;
   }
 }
 .year__item {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 480px) {
     margin-right: 4px;
   }
 }
