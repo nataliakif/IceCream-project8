@@ -36,7 +36,7 @@
 
 <symbol id="menu" width="20" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 1h20M0 7h20M0 13h20" stroke="#D41443"/>
 </symbol>
-<symbol id="menu-close" xmlns="http://www.w3.org/2000/svg"><path d="m1.26 1 13.48 14M1 14.74 15 1.26"/>
+<symbol id="menu-close" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1.26 1 13.48 14M1 14.74 15 1.26" stroke="#fff"/>
 
 
 <symbol id="advantages3" viewBox="0 0 28 32">

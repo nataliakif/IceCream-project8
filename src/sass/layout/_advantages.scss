@@ -1,25 +1,27 @@
 .advantages__section {
+  padding-bottom: 97px;
   background-color: $secondary-bg-color;
-}
-
-.advantages__container {
-  padding: 0 20px;
 
   @media screen and (min-width: 768px) {
-    padding: 0 36px;
-  }
-
-  @media screen and (min-width: 1280px) {
-    padding: 0 115px;
+    padding-bottom: 140px;
   }
 }
+
+// .advantages__container {
+//   padding: 0 20px;
+
+//   @media screen and (min-width: 768px) {
+//     padding: 0 34px;
+//   }
+
+//   @media screen and (min-width: 1280px) {
+//     padding: 0 115px;
+//   }
+// }
 
 .advantages {
-  padding-bottom: 97px;
-
   @media screen and (min-width: 768px) {
     display: flex;
-    padding-bottom: 140px;
   }
 }
 

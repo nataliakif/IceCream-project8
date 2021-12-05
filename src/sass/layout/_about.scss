@@ -52,6 +52,8 @@
 }
 .about-position__left {
   @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
     margin-bottom: 46px;
   }
   @media screen and (min-width: 768px) {

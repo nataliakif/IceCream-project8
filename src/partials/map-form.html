@@ -1,4 +1,3 @@
-<button type="button" data-map-modal-open>Map</button>
 <div class="backdrop is-hidden" data-map-modal>
   <div class="container map-container">
     <button class="modal__close-btn map-button" aria-label="Закрыть окно" data-map-modal-close>
@@ -7,12 +6,12 @@
       </svg>
     </button>
     
-      <iframe
+     <iframe
+        title="Map with our locations"
         class="map-form__iframe"
-        src="https://www.google.com/maps/d/embed?mid=18W0Dm9c5Gt2yizE0S0kGpvUvmDQp5wol&ehbc=2E312F"
+        data-aload="https://www.google.com/maps/d/embed?mid=18W0Dm9c5Gt2yizE0S0kGpvUvmDQp5wol&ehbc=2E312F"
       ></iframe>
     
   </div>
 </div>
 
-<script src="./js/map-modal.js"></script>
