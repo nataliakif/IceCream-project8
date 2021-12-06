@@ -117,9 +117,7 @@
     margin-bottom: 0;
   }
 }
-.contact__list {
-  margin-right: 4px;
-}
+
 .contact__title {
   font-family: DM Sans;
   font-weight: 700;
@@ -151,9 +149,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-  
     font-size: 18px;
-    
   }
   @media screen and (min-width: 768px) {
     font-size: 14px;
@@ -163,19 +159,6 @@
   }
 }
 .footer__year {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 89px;
-  border-top: 1px solid #e1e1e1;
-  @media screen and (min-width: 768px) {
-    height: 73px;
-  }
-  @media screen and (min-width: 1280px) {
-    height: 45px;
-  }
-}
-.year__list {
   font-family: DM Sans;
 
   font-weight: 700;
@@ -185,12 +168,27 @@
   color: $secondary-text-color;
 
   padding: 22px 0 25px;
-  @media screen and (min-width: 480px) {
+
+  height: 89px;
+  border-top: 1px solid #e1e1e1;
+
+  @media screen and (max-width: 767px) {
+  text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    height: 73px;
     display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1280px) {
+    height: 45px;
+    display: flex;
+    justify-content: center;
   }
 }
+
 .year__item {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     margin-right: 4px;
   }
 }
