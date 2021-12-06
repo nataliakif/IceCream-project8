@@ -1,6 +1,7 @@
 .fform {
   margin: 0 auto;
   text-align: center;
+  color: $secondary-text-color;
 }
 
 .fform__title {
@@ -59,6 +60,7 @@
   position: absolute;
   left: 0;
   bottom: 50%;
+  fill: $secondary-text-color;
   transform: translate(12px, 50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -71,7 +73,8 @@
   font-size: 14px;
 }
 
-
-.fform__submit-btn{
- margin: 0 auto;
+.fform__submit-btn {
+  margin: 0 auto;
+  padding-left: 17px;
+  padding-right: 17px;
 }
