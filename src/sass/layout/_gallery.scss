@@ -5,86 +5,54 @@
     $menu-text-color 45%,
     $menu-text-color 60%
   );
-  padding-bottom: 85px;
+  padding-bottom: 80px;
   @media screen and (min-width: 1200px) {
-    padding-bottom: 120px;
+    padding-bottom: 123px;
   }
 }
 
 .gallery {
   display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  grid-template-areas: 'item1 item2 item3 item4 item5 item6';
 }
 
 .gallery__img {
-  width: 40px;
-  border-radius: 10px;
-  cursor: pointer;
-  margin-bottom: 5px;
-  transition-property: width;
-  transition-duration: 300ms;
-  transition-timing-function: infinite;
-  transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
-  @media screen and (min-width: 420px) and (max-width: 767px) {
-    width: 60px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-bottom: 10px;
-  }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    width: 95px;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-bottom: 20px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 140px;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-bottom: 30px;
-  }
+  padding: 2%;
+  border-radius: 20%;
 }
 
-.gallery__item5,
+.gallery__img4 {
+  width: 110px;
+  border-radius: 15%;
+  width: 100%;
+}
+
+.gallery__img5 {
+  width: 50%;
+}
+
+.gallery__item1 {
+  align-self: center;
+}
+
 .gallery__item2 {
-  margin-bottom: 15px;
-  @media screen and (min-width: 400px) and (max-width: 767px) {
-    margin-bottom: 30px;
-  }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-bottom: 40px;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 60px;
-  }
+  padding-top: 55%;
 }
 
-.gallery__img:hover {
-  width: 90px;
-  @media screen and (min-width: 480px) and (max-width: 767px) {
-    width: 100px;
-  }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    width: 190px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 280px;
-  }
+.gallery__item3 {
+  align-self: center;
 }
 
-//-------------------------------------------------------
-// .gallery {
-//   background-image: linear-gradient(
-//     to bottom,
-//     #fff5f6 39%,
-//     var(--menu-text-color) 41%,
-//     var(--menu-text-color) 60%
-//   );
-// }
+.gallery__item4 {
+  padding-top: 65%;
+}
 
-// .gallery__img {
-//   margin: 0 auto;
-// }
+.gallery__item5 {
+  padding-top: 40%;
+}
+
+.gallery__item6 {
+  padding-top: 110%;
+}

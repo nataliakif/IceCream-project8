@@ -36,7 +36,7 @@
 
 <symbol id="menu" width="20" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 1h20M0 7h20M0 13h20" stroke="#D41443"/>
 </symbol>
-<symbol id="menu-close" xmlns="http://www.w3.org/2000/svg"><path d="m1.26 1 13.48 14M1 14.74 15 1.26"/>
+<symbol id="menu-close" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1.26 1 13.48 14M1 14.74 15 1.26" stroke="#fff"/>
 
 
 <symbol id="advantages3" viewBox="0 0 28 32">
@@ -50,6 +50,9 @@
 </symbol>
 <symbol id="icon-Vector-1-1" viewBox="0 0 26 32">
   <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M5.172 3.2l14.169 12.8-14.169 12.8"></path>
+</symbol>
+<symbol id="icon--1-2" viewBox="0 0 26 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M5.171 3.2l14.17 12.8-14.17 12.8"></path>
 </symbol>
   
 <symbol id="icon-close" viewBox="0 0 32 32"><path d="m26.667 7.303-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"/></symbol>
