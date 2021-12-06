@@ -167,28 +167,31 @@
 
   color: $secondary-text-color;
 
-  padding: 22px 0 25px;
-
+  
   height: 89px;
   border-top: 1px solid #e1e1e1;
 
   @media screen and (max-width: 767px) {
   text-align: center;
+  padding: 22px 0 25px ;
+  & p{
+    margin: 0 auto;
+    width: 145px;
+  }
   }
   @media screen and (min-width: 768px) {
     height: 73px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   @media screen and (min-width: 1280px) {
     height: 45px;
     display: flex;
     justify-content: center;
+    align-items: center;
+
   }
 }
 
-.year__item {
-  @media screen and (min-width: 768px) {
-    margin-right: 4px;
-  }
-}
+
