@@ -1,33 +1,33 @@
 body {
-  font-family: $main-font;
-  background-color: $primary-bg-color;
-  font-size: 12px;
-  font-style: normal;
-  cursor: default;
-  @media screen and (min-width: 768px) {
-    font-size: 14px;
-  }
+   font-family: $main-font;
+   background-color: $primary-bg-color;
+   font-size: 12px;
+   font-style: normal;
+   cursor: default;
+   @media screen and (min-width: 768px) {
+      font-size: 14px;
+   }
 }
 
 h1,
 h2,
 h3,
 p {
-  margin: 0;
+   margin: 0;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+   margin: 0;
+   padding: 0;
+   list-style: none;
 }
 
 a {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
