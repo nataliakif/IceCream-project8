@@ -1,28 +1,22 @@
 .about-section {
   background-color: $secondary-bg-color;
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 479px) {
     background-image: url(../images/mobile/about/milk-mobile.png);
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position: bottom;
     background-size: contain;
   }
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
     background-image: url(../images/mobile/about/milk-mobile479.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-y: bottom;
-  }
-  @media screen and (min-width: 768px) {
-    background-image: url(../images/tablet/about/milk-tablet.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-y: bottom;
+    background-position: bottom;
   }
   @media screen and (min-width: 1280px) {
     background-image: url(../images/desktop/about/milk-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-y: bottom;
+    background-position: bottom;
   }
 }
 .about-container {
