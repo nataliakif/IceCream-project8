@@ -1,9 +1,14 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    font-family: $main-font;
    background-color: $primary-bg-color;
    font-size: 12px;
    font-style: normal;
    cursor: default;
+
    @media screen and (min-width: 768px) {
       font-size: 14px;
    }
