@@ -13,18 +13,30 @@
   padding-bottom: 160px;
 }
  @media screen and (min-width: 1280px){
-  background: linear-gradient($primary-bg-color 15%, $secondary-bg-color 15%);
+  background-color:  $secondary-bg-color;
+  background-image: url(../images/desktop/contacts/contacts-sectionbg.png);          
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+                
+    @media (min-device-pixel-ratio: 2),                
+    (min-resolution: 192dpi),                
+    (min-resolution: 2dppx) {                    
+    background-image: url(../images/desktop/contacts/contacts-sectionbg@2x.png);                
 }
+ }
 }
 .contacts__list{
 display: flex;
-margin-bottom: 50px;
 flex-direction: column;
 align-items: center;
   @media screen and (min-width: 768px){
-    display: flex;
     flex-direction: row;
+     margin: -10px;
   }
+  @media screen and (min-width: 1280px){
+    margin: -15px;
+}
 }
 .contacts__card{
   width: 220px;
@@ -39,8 +51,8 @@ align-items: center;
    margin-bottom: 20px;
    } 
   }
-  @media screen and (min-width: 480px) and (max-width: 767px){
-  width: 430px; 
+  @media screen and (min-width: 480px) {
+  width: 450px; 
   padding: 40px 30px;
 }
 @media screen and (min-width: 768px){
@@ -152,7 +164,6 @@ color: $secondary-accent-color;
   }
 }
 .contacts__bath{
- display: flex;
  @include font(500, 12px, 1.5);
  color: $secondary-text-color;
  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -216,11 +227,16 @@ border-bottom: 1px solid #E1E1E1;
  }
 //  ------------------button-------
 .contacts_button{
+  margin-top: 54px;
   @media screen and (min-width: 768px){
+   margin-top: 81px;
    flex-direction: row;
    justify-content: center;
    display: flex;
    align-items: center;
+  }
+  @media screen and (min-width: 1280px){
+    margin-top: 86px;
   }
 }
 .about-btn {
