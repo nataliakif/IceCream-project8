@@ -13,6 +13,55 @@
    }
 }
 
+.scrolltop {
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   opacity: 0;
+   z-index: 99;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   background-color: $primary-accent-color;
+
+   @media screen and (min-width: 768px) {
+      width: 40px;
+      height: 40px;
+   }
+
+   @media screen and (min-width: 1280px) {
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+   }
+
+   &:hover,
+   &:focus {
+      background-color: $hero-header-bg;
+   }
+}
+
+.showBtn {
+   opacity: 1;
+}
+
+.scroll-top__icon {
+   border: solid $menu-text-color;
+   border-width: 0 2px 2px 0;
+
+   display: inline-block;
+   padding: 3px;
+
+   &--up {
+      transform: rotate(-135deg);
+   }
+}
+
 .header {
    position: relative;
    padding: 5px 0;
@@ -58,7 +107,6 @@
 .site-nav__link {
    display: block;
    padding: 25px 0;
-   text-decoration: none;
    color: $menu-text-color;
    font-weight: 700;
    font-size: 16px;
@@ -76,7 +124,6 @@
 
 .logo {
    display: inline-block;
-   text-decoration: none;
    cursor: pointer;
 
    @media screen and (min-width: 1280px) {
@@ -98,7 +145,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      text-decoration: none;
       border-radius: 22px;
       width: 160px;
       height: 45px;
@@ -230,7 +276,6 @@
    align-items: center;
 
    border-radius: 22px;
-   text-decoration: none;
    width: 210px;
    height: 45px;
    font-weight: 700;
@@ -270,7 +315,6 @@
 .nav-menu__link {
    display: block;
    padding: 12px 0;
-   text-decoration: none;
    color: $menu-text-color;
    font-weight: 700;
    font-size: 16px;
@@ -369,7 +413,6 @@
    justify-content: center;
    align-items: center;
    border-radius: 20px;
-   text-decoration: none;
 }
 
 .hero__button--first {
