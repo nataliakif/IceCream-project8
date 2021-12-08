@@ -290,7 +290,7 @@
    margin-top: 20px;
 }
 
-.nav-menu__item {
+.nav-menu__item:nth-child(odd) {
    border-bottom: 1px solid #e18298;
    border-top: 1px solid #e18298;
    width: 100%;
