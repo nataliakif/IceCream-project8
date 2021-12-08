@@ -40,7 +40,8 @@
                      <use href="./images/svg/sprite.svg#menu-close"></use>
                   </svg>
                </button>
-               <a class="menu-btn" href="">Buy now<span class="menu-btn__icon menu-btn__icon--right"></span></a>
+               <button type="button" class="menu-btn" href="">Buy now<span
+                     class="menu-btn__icon menu-btn__icon--right"></span></button>
                <ul class="nav-menu">
                   <li class="nav-menu__item"><a class="nav-menu__link nav-menu__link--current" href="">Home</a>
                   </li>
@@ -51,15 +52,16 @@
                </ul>
             </div>
             <!-- *--------------------------End mobile-menu ----------------------------->
-            <a class="top-btn" href="">Buy now<span class="top-btn__icon top-btn__icon--right"></span></a>
+            <button type="button" class="top-btn" href="">Buy now<span
+                  class="top-btn__icon top-btn__icon--right"></span></button>
          </div>
    </header>
 
    <!-- *-------------------HERO------------------- -->
 
    <section class="hero">
-      <div class="container">
-         <div class="hero__container">
+      <div class="container hero__container">
+         <div class="hero__wrapper">
             <div class="hero__box">
                <h1 class="hero__title">ice cream <br>
                   made with
@@ -69,98 +71,7 @@
                <a class="hero__button hero__button--first" href="#products">Products</a>
                <a class="hero__button hero__button--second" href="#about">How it’s made?</a>
             </div>
-            <ul class="number-list">
-               <li class="number-list__item">16</li>
-               <li class="number-list__item">cafes</li>
-               <li class="number-list__item">23</li>
-               <li class="number-list__item">food trucks</li>
-            </ul>
-         </div>
-         <div class="box-text">
-            <p class="box-text__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-               incididunt ut labore et
-            </p>
-         </div>
-         <a href="" class="button">
-            <svg class="button__icon">
-               <use href="./images/svg/sprite.svg#arrorightw-"></use>
-            </svg>
-         </a>
-         <ul class="image">
-            <li class="image__list slide-right">
-               <picture>
-                  <source media="(min-width: 1280px)"
-                     srcset="./images/desktop/hero-header/slider-pic5-1.png 188w, ./images/desktop/hero-header/slider-pic5-1@2x.png 376w"
-                     sizes="188px" />
-
-                  <source media="(min-width: 1280px)"
-                     srcset="./images/desktop/hero-header/slider-pic5-1.webp 188w, ./images/desktop/hero-header/slider-pic5-1@2x.webp 376w"
-                     type="image/webp" sizes="188px" />
-
-                  <source media="(min-width: 768px)"
-                     srcset="./images/tablet/hero-header/slider-pic5-1.png 124w, ./images/tablet/hero-header/slider-pic5-1@2x.png 248w"
-                     sizes="124px" />
-
-                  <source media="(min-width: 768px)"
-                     srcset="./images/tablet/hero-header/slider-pic5-1.webp 124w, ./images/tablet/hero-header/slider-pic5-1@2x.webp 248w"
-                     type="image/webp" sizes="124px" />
-
-
-                  <img src="#" alt="milk" loading="lazy" />
-               </picture>
-            </li>
-            <li class="image__list slide-left">
-               <picture>
-                  <source media="(min-width: 1280px)"
-                     srcset="./images/desktop/hero-header/slider-pic4-1.png 293w, ./images/desktop/hero-header/slider-pic4-1@2x.png 586w"
-                     sizes="293px" />
-
-                  <source media="(min-width: 1280px)"
-                     srcset="./images/desktop/hero-header/slider-pic4-1.webp 293w, ./images/desktop/hero-header/slider-pic4-1@2x.webp 586w"
-                     type="image/webp" sizes="293px" />
-
-                  <source media="(min-width: 768px)"
-                     srcset="./images/tablet/hero-header/slider-pic4-1.png 168w, ./images/tablet/hero-header/slider-pic4-1@2x.png 376w"
-                     sizes="168px" />
-
-                  <source media="(min-width: 768px)"
-                     srcset="./images/tablet/hero-header/slider-pic4-1.webp 168w, ./images/tablet/hero-header/slider-pic4-1@2x.webp 376w"
-                     type="image/webp" sizes="168px" />
-
-
-                  <img src="#" alt="girl with ice cream" loading="lazy" />
-               </picture>
-            </li>
-            <li class="image__list">
-               <picture>
-                  <source media="(min-width: 1280px)"
-                     srcset="./images/desktop/hero-header/ellipse.png 538w, ./images/desktop/hero-header/ellipse@2x.png 1076w"
-                     sizes="538px" />
-
-                  <source media="(min-width: 1280px)"
-                     srcset="./images/desktop/hero-header/ellipse.webp 538w, ./images/desktop/hero-header/ellipse@2x.webp 1076w"
-                     type="image/webp" sizes="538px" />
-
-                  <source media="(min-width: 768px)"
-                     srcset="./images/tablet/hero-header/ellipse.png 324w, ./images/tablet/hero-header//ellipse@2x.png 648w"
-                     sizes="324px" />
-
-                  <source media="(min-width: 768px)"
-                     srcset="./images/tablet/hero-header/ellipse.webp 324w, ./images/tablet/hero-header//ellipse@2x.webp 648w"
-                     type="image/webp" sizes="324px" />
-
-                  <source media="(min-width: 320px)"
-                     srcset="./images/mobile/hero-header/ellipse.png 284w, ./images/mobile/hero-header//ellipse@2x.png 568w"
-                     sizes="284px" />
-
-                  <source media="(min-width: 320px)"
-                     srcset="./images/mobile/hero-header/ellipse.webp 284w, ./images/mobile/hero-header//ellipse@2x.webp 568w"
-                     type="image/webp" sizes="284px" />
-
-                  <img src="#" alt="background of ice cream" loading="lazy" />
-               </picture>
-            </li>
-            <li class="image__list pull-up">
+            <div class="icecream-box icecream-box--up">
                <picture>
                   <source media="(min-width: 1280px)"
                      srcset="./images/desktop/hero-header/slider-pic7-1.png 236w, ./images/desktop/hero-header/slider-pic7-1@2x.png 472w"
@@ -188,8 +99,74 @@
 
                   <img src="#" alt="ice cream" loading="lazy" />
                </picture>
-            </li>
-         </ul>
+            </div>
+            <div class="circle"></div>
+            <ul class="number-list">
+               <li class="number-list__item">16</li>
+               <li class="number-list__item">cafes</li>
+               <li class="number-list__item">23</li>
+               <li class="number-list__item">food trucks</li>
+            </ul>
+         </div>
+         <div class="box-text">
+            <p class="box-text__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+               incididunt ut labore et
+            </p>
+         </div>
+         <a href="" class="button">
+            <svg class="button__icon">
+               <use href="./images/svg/sprite.svg#arrorightw-"></use>
+            </svg>
+         </a>
+         <div class="milk-box milk-box--right">
+            <picture>
+               <source media="(min-width: 1280px)"
+                  srcset="./images/desktop/hero-header/slider-pic5-1.png 188w, ./images/desktop/hero-header/slider-pic5-1@2x.png 376w"
+                  sizes="188px" />
+
+               <source media="(min-width: 1280px)"
+                  srcset="./images/desktop/hero-header/slider-pic5-1.webp 188w, ./images/desktop/hero-header/slider-pic5-1@2x.webp 376w"
+                  type="image/webp" sizes="188px" />
+
+               <source media="(min-width: 768px)"
+                  srcset="./images/tablet/hero-header/slider-pic5-1.png 124w, ./images/tablet/hero-header/slider-pic5-1@2x.png 248w"
+                  sizes="124px" />
+
+               <source media="(min-width: 768px)"
+                  srcset="./images/tablet/hero-header/slider-pic5-1.webp 124w, ./images/tablet/hero-header/slider-pic5-1@2x.webp 248w"
+                  type="image/webp" sizes="124px" />
+
+
+               <img src="#" alt="milk" loading="lazy" />
+            </picture>
+         </div>
+         <div class="girl-box girl-box--left">
+            <picture>
+               <source media="(min-width: 1280px)"
+                  srcset="./images/desktop/hero-header/slider-pic4-1.png 293w, ./images/desktop/hero-header/slider-pic4-1@2x.png 586w"
+                  sizes="293px" />
+
+               <source media="(min-width: 1280px)"
+                  srcset="./images/desktop/hero-header/slider-pic4-1.webp 293w, ./images/desktop/hero-header/slider-pic4-1@2x.webp 586w"
+                  type="image/webp" sizes="293px" />
+
+               <source media="(min-width: 768px)"
+                  srcset="./images/tablet/hero-header/slider-pic4-1.png 168w, ./images/tablet/hero-header/slider-pic4-1@2x.png 376w"
+                  sizes="168px" />
+
+               <source media="(min-width: 768px)"
+                  srcset="./images/tablet/hero-header/slider-pic4-1.webp 168w, ./images/tablet/hero-header/slider-pic4-1@2x.webp 376w"
+                  type="image/webp" sizes="168px" />
+
+
+               <img src="#" alt="girl with ice cream" loading="lazy" />
+            </picture>
+         </div>
+
+
+
+
+
       </div>
    </section>
 </div>
