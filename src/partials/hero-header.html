@@ -1,13 +1,172 @@
-<header>
-   <nav>
-      <a href="">
-      </a>
-      <ul>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ul>
-   </nav>
-</header>
+<!--*---------------------------------- *HEADER ------------------------------------->
+
+<div class="top-wrapper">
+   <a href="#top" class="scrolltop"><span class="scroll-top__icon scroll-top__icon--up"></span>
+
+   </a>
+   <header class="header">
+      <div class="container header__container">
+         <nav class="navigation">
+            <a class="logo" href="./index.html">
+               <picture>
+                  <source media="(min-width: 320px)"
+                     srcset="./images/logo/logo.png 199w, ./images/logo/logo@2x.png 398w" sizes="199px" />
+                  <source media="(min-width: 320px)"
+                     srcset="./images/logo/logo.webp 199w, ./images/logo/logo@2x.webp 398w" type="image/webp"
+                     sizes="199px" />
+                  <img src="#" alt="логотип" loading="lazy" />
+               </picture>
+            </a>
+            <ul class="site-nav">
+               <li class="site-nav__item"><a class="site-nav__link site-nav__link--current" href="#">Home</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="#advantages">About us</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="#about">How it’s made?</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="#products">Our products</a></li>
+               <li class="site-nav__item"><a class="site-nav__link" href="#contacts">Contact</a></li>
+            </ul>
+         </nav>
+
+         <div class=" btn-wrapper">
+            <!-- *-------------------------Start mobile-menu ------------------------->
+            <button class="burger-btn" type="button" data-menu-open>
+               <svg class="burger-btn__icon" aria-label="переключатель мобильного меню">
+                  <use href="./images/svg/sprite.svg#menu"></use>
+               </svg>
+            </button>
+
+            <div class="mobile-menu" data-menu>
+               <button class="close-btn" type="button" data-menu-close>
+                  <svg class="close-btn__icon" aria-label="переключатель мобильного меню">
+                     <use href="./images/svg/sprite.svg#menu-close"></use>
+                  </svg>
+               </button>
+               <button type="button" class="menu-btn" href="">Buy now<span
+                     class="menu-btn__icon menu-btn__icon--right"></span></button>
+               <ul class="nav-menu">
+                  <li class="nav-menu__item"><a class="nav-menu__link nav-menu__link--current" href="">Home</a>
+                  </li>
+                  <li class="nav-menu__item"><a class="nav-menu__link" href="#about">About us</a></li>
+                  <li class="nav-menu__item"><a class="nav-menu__link" href="#about">How it’s made?</a></li>
+                  <li class="nav-menu__item"><a class="nav-menu__link" href="#products">Our products</a></li>
+                  <li class="nav-menu__item"><a class="nav-menu__link" href="#contacts">Contact</a></li>
+               </ul>
+            </div>
+            <!-- *--------------------------End mobile-menu ----------------------------->
+            <button type="button" class="top-btn" href="">Buy now<span
+                  class="top-btn__icon top-btn__icon--right"></span></button>
+         </div>
+   </header>
+
+   <!-- *-------------------HERO------------------- -->
+
+   <section class="hero">
+      <div class="container hero__container">
+         <div class="hero__wrapper">
+            <div class="hero__box">
+               <h1 class="hero__title">ice cream <br>
+                  made with
+                  <span class="hero__title--big">
+                     passion</span>
+               </h1>
+               <a class="hero__button hero__button--first" href="#products">Products</a>
+               <a class="hero__button hero__button--second" href="#about">How it’s made?</a>
+            </div>
+            <div class="icecream-box icecream-box--up">
+               <picture>
+                  <source media="(min-width: 1280px)"
+                     srcset="./images/desktop/hero-header/slider-pic7-1.png 236w, ./images/desktop/hero-header/slider-pic7-1@2x.png 472w"
+                     sizes="236px" />
+
+                  <source media="(min-width: 1280px)"
+                     srcset="./images/desktop/hero-header/slider-pic7-1.webp 236w, ./images/desktop/hero-header/slider-pic7-1@2x.webp 472w"
+                     type="image/webp" sizes="236px" />
+
+                  <source media="(min-width: 768px)"
+                     srcset="./images/tablet/hero-header/slider-pic7-1.png 143w, ./images/tablet/hero-header/slider-pic7-1@2x.png 286w"
+                     sizes="143px" />
+
+                  <source media="(min-width: 768px)"
+                     srcset="./images/tablet/hero-header/slider-pic7-1.webp 143w, ./images/tablet/hero-header/slider-pic7-1@2x.webp 286w"
+                     type="image/webp" sizes="143px" />
+
+                  <source media="(min-width: 320px)"
+                     srcset="./images/mobile/hero-header/slider-pic7-1.png 171w, ./images/mobile/hero-header/slider-pic7-1@2x.png 342w"
+                     sizes="171px" />
+
+                  <source media="(min-width: 320px)"
+                     srcset="./images/mobile/hero-header/slider-pic7-1.webp 171w, ./images/mobile/hero-header/slider-pic7-1@2x.webp 342w"
+                     type="image/webp" sizes="171px" />
+
+                  <img src="#" alt="ice cream" loading="lazy" />
+               </picture>
+            </div>
+            <div class="circle"></div>
+            <ul class="number-list">
+               <li class="number-list__item">16</li>
+               <li class="number-list__item">cafes</li>
+               <li class="number-list__item">23</li>
+               <li class="number-list__item">food trucks</li>
+            </ul>
+         </div>
+         <div class="box-text">
+            <p class="box-text__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+               incididunt ut labore et
+            </p>
+         </div>
+         <a href="" class="button">
+            <svg class="button__icon">
+               <use href="./images/svg/sprite.svg#arrorightw-"></use>
+            </svg>
+         </a>
+         <div class="milk-box milk-box--right">
+            <picture>
+               <source media="(min-width: 1280px)"
+                  srcset="./images/desktop/hero-header/slider-pic5-1.png 188w, ./images/desktop/hero-header/slider-pic5-1@2x.png 376w"
+                  sizes="188px" />
+
+               <source media="(min-width: 1280px)"
+                  srcset="./images/desktop/hero-header/slider-pic5-1.webp 188w, ./images/desktop/hero-header/slider-pic5-1@2x.webp 376w"
+                  type="image/webp" sizes="188px" />
+
+               <source media="(min-width: 768px)"
+                  srcset="./images/tablet/hero-header/slider-pic5-1.png 124w, ./images/tablet/hero-header/slider-pic5-1@2x.png 248w"
+                  sizes="124px" />
+
+               <source media="(min-width: 768px)"
+                  srcset="./images/tablet/hero-header/slider-pic5-1.webp 124w, ./images/tablet/hero-header/slider-pic5-1@2x.webp 248w"
+                  type="image/webp" sizes="124px" />
+
+
+               <img src="#" alt="milk" loading="lazy" />
+            </picture>
+         </div>
+         <div class="girl-box girl-box--left">
+            <picture>
+               <source media="(min-width: 1280px)"
+                  srcset="./images/desktop/hero-header/slider-pic4-1.png 293w, ./images/desktop/hero-header/slider-pic4-1@2x.png 586w"
+                  sizes="293px" />
+
+               <source media="(min-width: 1280px)"
+                  srcset="./images/desktop/hero-header/slider-pic4-1.webp 293w, ./images/desktop/hero-header/slider-pic4-1@2x.webp 586w"
+                  type="image/webp" sizes="293px" />
+
+               <source media="(min-width: 768px)"
+                  srcset="./images/tablet/hero-header/slider-pic4-1.png 168w, ./images/tablet/hero-header/slider-pic4-1@2x.png 376w"
+                  sizes="168px" />
+
+               <source media="(min-width: 768px)"
+                  srcset="./images/tablet/hero-header/slider-pic4-1.webp 168w, ./images/tablet/hero-header/slider-pic4-1@2x.webp 376w"
+                  type="image/webp" sizes="168px" />
+
+
+               <img src="#" alt="girl with ice cream" loading="lazy" />
+            </picture>
+         </div>
+
+
+
+
+
+      </div>
+   </section>
+</div>

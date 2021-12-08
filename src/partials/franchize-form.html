@@ -1,0 +1,49 @@
+<div class="backdrop is-hidden" data-franchize-modal>
+    <div class="modal">
+        <button class="modal__close-btn" aria-label="Закрыть окно" data-franchize-modal-close>
+            <svg class="modal__close-icon" width="18px" height="18px">
+                <use href="../src/images/svg/sprite.svg#icon-close"></use>
+              </svg>
+        </button>
+
+        <form action="#" class="fform" autocomplete="off">
+            <h2 class="fform__title">Оставьте свои данные, мы вам перезвоним</h2>
+            <label class="fform__label">
+                <span class="fform__label-text">Имя</span>
+                <span class="fform__icon-wrapper">
+                  <input class="fform__field" name="user-name" type="text" />
+                  <svg class="fform__icon" width="18px" height="18px">
+                    <use href="../src/images/svg/sprite.svg#person-icon"></use>
+                  </svg>
+            </label>
+            <label class="fform__label">
+                <span class="fform__label-text">Телефон</span>
+                <span class="fform__icon-wrapper">
+                  <input class="fform__field" name="user-tel" type="tel" />
+                  <svg class="fform__icon" width="18px" height="18px">
+                    <use href="../src/images/svg/sprite.svg#phone-form-icon"></use>
+                  </svg>
+                </span>
+              </label>
+              <label class="fform__label">
+                <span class="fform__label-text">Почта</span>
+                <span class="fform__icon-wrapper">
+                  <input class="fform__field" name="user-email" type="email" />
+                  <svg class="fform__icon" width="18px" height="18px">
+                    <use href="../src/images/svg/sprite.svg#email-form-icon"></use>
+                  </svg>
+                </span>
+              </label>
+              <label class="fform__label">
+                <span class="fform__label-text">Комментарий</span>
+                <textarea
+                  class="fform__field fform__text-comment"
+                  name="user-comment"
+                  placeholder="Введите текст"
+                ></textarea>
+              </label>
+              <button class="site-button site-button--inverse fform__submit-btn" type="submit" data-franchize-modal-close>Отправить</button>
+        </form>
+    </div>
+</div>
+
