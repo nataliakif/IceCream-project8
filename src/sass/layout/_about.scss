@@ -12,11 +12,17 @@
     background-size: contain;
     background-position: bottom;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1280px) and (max-width: 1999px) {
     background-image: url(../images/desktop/about/milk-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
+  }
+  @media screen and (min-width: 2000px) {
+    background-image: url(../images/desktop/about/milk-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 .about-container {
