@@ -5,24 +5,25 @@
 }
 .contacts{
  padding-bottom: 110px;
- @media screen and (min-width: 320px) and (max-width: 767px){
-  background: linear-gradient($primary-bg-color 7%, $secondary-bg-color 7%);
-}
+ background: linear-gradient($primary-bg-color 7%, $secondary-bg-color 7%);
+
  @media screen and (min-width: 768px){
   background: linear-gradient($primary-bg-color 20%, $secondary-bg-color 20%);
   padding-bottom: 160px;
 }
  @media screen and (min-width: 1280px){
  
-  background-image: url(../images/desktop/contacts/contacts-sectionbg.png), linear-gradient($primary-bg-color 15%, $secondary-bg-color 15% ) ;          
-  background-size: 100% 100%;
+  background-image: url(../images/desktop/contacts/contacts-sectionbg.png),
+   linear-gradient($primary-bg-color 15%, $secondary-bg-color 15% );          
+  background-size: 1280px 400px, auto;
   background-repeat: no-repeat;
-  background-position: 50% 20%;
+  background-position: center 20%;
                 
     @media (min-device-pixel-ratio: 2),                
     (min-resolution: 192dpi),                
     (min-resolution: 2dppx) {                    
-    background-image: url(../images/desktop/contacts/contacts-sectionbg@2x.png);                
+    background-image: url(../images/desktop/contacts/contacts-sectionbg@2x.png),
+    linear-gradient($primary-bg-color 15%, $secondary-bg-color 15% );             
 }
  }
 }
