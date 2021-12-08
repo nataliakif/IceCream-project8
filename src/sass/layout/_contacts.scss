@@ -203,25 +203,25 @@ border-bottom: 1px solid #E1E1E1;
  top: 90px;
  }
  }
-.contacts__time--line{
+.contacts__schedule--line{
    position: relative;
    margin-bottom: 50px;
  }
- .contacts__time--line::after{
+ .contacts__schedule--line::after{
 content: " ";
 width: 179px;
 height: 0px;
-top: 70px;
+top: 125px;
 position: absolute;
 display: block;
 border-bottom: 1px solid #E1E1E1;
   @media screen and (min-width: 480px){
   width: 335px;
-  top: 85px;
+  top: 155px;
  }
  @media screen and (min-width: 768px){
  width: 157px;
- top: 80px;
+ top: 140px;
  }
  @media screen and (min-width: 1280px){
  width: 234px;
