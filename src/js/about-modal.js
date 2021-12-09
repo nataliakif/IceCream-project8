@@ -1,4 +1,5 @@
 (() => {
+    var scrolltop = document.querySelector(".scrolltop");
     const refs = {
     openModalBtn: document.querySelector('[data-about-modal-open]'),
     closeModalBtn: document.querySelector('[data-about-modal-close]'),
@@ -12,5 +13,6 @@
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
     refs.bodyScrollLock.classList.toggle('modal-open');
+    scrolltop.classList.toggle("showBtn");
   }
 })();
